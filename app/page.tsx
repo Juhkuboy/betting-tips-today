@@ -1,5 +1,7 @@
+'use client';
+
 import React, { useState } from 'react';
-import './styles.css'; // Import styles for animation
+import './styles.css';
 
 const HomePage: React.FC = () => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -9,7 +11,6 @@ const HomePage: React.FC = () => {
     };
 
     const handleSearchSubmit = () => {
-        // Handle search functionality here
         console.log('Search for:', searchQuery);
     };
 
